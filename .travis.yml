@@ -3,5 +3,5 @@ arch:
   - ppc64le
   
 script:
-  - free
+  - free -h
   - df -h
