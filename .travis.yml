@@ -4,8 +4,7 @@ jobs:
       os: linux
     - arch: ppc64le
       os: linux
-    - arch: ppc64le
-      os: linux-ppc64le
+    - os: linux-ppc64le
 
 script:
   - free --giga
