@@ -2,6 +2,8 @@ arch:
   - amd64
   - ppc64le
   
+os: linux-ppc64le
+
 script:
-  - free -h
+  - free --giga
   - df -h
